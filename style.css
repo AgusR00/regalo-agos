@@ -18,7 +18,7 @@ body {
 
 #date {
   font-size: 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Stoke", serif;
 }
 
@@ -31,7 +31,7 @@ body {
 
 #counter {
   font-size: 24px;
-  color: rgb(255, 255, 255);
+  color: rgb(233, 155, 67);
   font-family: "Stoke", serif;
 }
 
@@ -193,7 +193,7 @@ span:nth-child(10) {
 @media screen and (max-width: 768px) {
   .message {
     font-size: 28px;
-  }
+  };
 
   #date,
   #counter {

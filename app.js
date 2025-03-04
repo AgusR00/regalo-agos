@@ -14,7 +14,8 @@ function updateCounter() {
     const years = Math.floor(months / 12);
 
     document.getElementById('counter').innerHTML = `Estamos juntos hace:<br>
-        ${years} año, ${months % 12} meses, ${days % 30} días, ${hours} horas y ${minutes} minutos.`;
+        ${years} año, ${months % 12} meses, ${days % 30} días, ${hours} horas y ${minutes} minutos.<br>
+        Y espero que sea mucho tiempo más ❤️`;
 }
 
 
