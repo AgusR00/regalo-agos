@@ -31,7 +31,7 @@ body {
 
 #counter {
   font-size: 24px;
-  color: rgb(233, 155, 67);
+  color: rgb(255, 255, 255);
   font-family: "Stoke", serif;
 }
 
@@ -194,6 +194,7 @@ span:nth-child(10) {
 
   body {
     overflow: auto;
+    background-image: cover;
   }
   .message {
     font-size: 28px;
@@ -206,11 +207,6 @@ span:nth-child(10) {
 
   #image {
     max-width: 400px;
-  }
-
-  section {
-    background-size: cover;
-    overflow: hidden;
   }
 
   .counter {
