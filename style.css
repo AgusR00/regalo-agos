@@ -31,7 +31,7 @@ body {
 
 #counter {
   font-size: 24px;
-  color: rgb(255, 255, 255);
+  color: rgb(243, 255, 238);
   font-family: "Stoke", serif;
 }
 
@@ -193,7 +193,7 @@ span:nth-child(10) {
 @media screen and (max-width: 768px) {
 
   body {
-    overflow: auto;
+    background-size: cover;
   }
   .message {
     font-size: 28px;
@@ -208,9 +208,15 @@ span:nth-child(10) {
     max-width: 400px;
   }
 
+  section {
+    overflow: hidden;
+  }
+
   .counter {
     padding: 20px;
     flex-wrap: wrap;
   }
+
+  
 }
 
