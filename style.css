@@ -24,13 +24,14 @@ body {
 
 .message {
   font-size: 44px;
+  margin-top: 0px;
   margin-bottom: 30px;
   font-family: "Stoke", serif;
 }
 
 #counter {
   font-size: 24px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Stoke", serif;
 }
 
@@ -214,6 +215,11 @@ span:nth-child(10) {
   section {
     background-size: cover;
     overflow: hidden;
+  }
+
+  .counter {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
   }
 
   
