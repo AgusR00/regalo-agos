@@ -194,7 +194,7 @@ span:nth-child(10) {
 
   body {
     overflow: auto;
-    background-image: cover;
+    background-size: cover;
   }
   .message {
     font-size: 28px;
