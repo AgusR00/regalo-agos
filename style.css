@@ -192,7 +192,9 @@ span:nth-child(10) {
 
 @media (max-width: 600px) {
   
-  
+  body {
+    overflow: hidden;
+  }
 
   .message {
     font-size: 28px;
