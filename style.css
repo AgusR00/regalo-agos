@@ -36,11 +36,11 @@ body {
 }
 
 section {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  min-height: auto;
+  height: 100vh;
   background-image: url('./img/bg2.jpg');
   background-position-x: center;
   background-size: cover;
@@ -197,6 +197,7 @@ span:nth-child(10) {
     overflow: auto;
   }
   .message {
+    margin-top: 40px;
     font-size: 28px;
   };
 
