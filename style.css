@@ -194,6 +194,8 @@ span:nth-child(10) {
   
   html, body {
     overflow: hidden;
+    height: 100%;
+    width: 100%;
   }
 
   .message {
