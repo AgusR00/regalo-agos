@@ -215,7 +215,6 @@ span:nth-child(10) {
 @media screen and (max-width: 768px) {
   body {
     overflow: hidden;
-    min-height: 100%;
   }
 
   .message {
@@ -230,11 +229,13 @@ span:nth-child(10) {
   #image {
     max-width: 300px;
   }
+
+  
 }
 
 /* Desktop styles */
 @media screen and (min-width: 769px) {
-  html, body {
+  body {
     overflow: hidden;
   }
 
