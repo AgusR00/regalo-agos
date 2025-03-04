@@ -191,6 +191,14 @@ span:nth-child(10) {
 }
 
 @media screen and (max-width: 768px) {
+
+  html, body {
+    overflow: hidden;
+  }
+
+
+
+
   .message {
     font-size: 28px;
   }
@@ -201,7 +209,14 @@ span:nth-child(10) {
   }
 
   #image {
-    max-width: 300px;
+    max-width: 400px;
   }
+
+  section {
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  
 }
 
