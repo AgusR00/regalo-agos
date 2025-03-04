@@ -209,6 +209,10 @@ span:nth-child(10) {
     max-width: 400px;
   }
 
+  section {
+    background-size: cover;
+  }
+
   .counter {
     padding: 20px;
     flex-wrap: wrap;
