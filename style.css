@@ -43,7 +43,6 @@ section {
   background-image: url('./img/bg2.jpg');
   background-position-x: center;
   background-size: cover;
-  animation: animateBg 50s linear infinite;
   z-index: -1;
 }
 
